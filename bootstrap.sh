@@ -16,7 +16,7 @@ echo -e "\n--> Checking that environment variables are set\n"
 echo -e "\n--> Initializing terraform\n"
 # initialize terraform
 terraform init \
-    -backend-config "bucket=$SPACE_NAME" \
+    -backend-config "bucket=$SPACE_NAME" 
     -backend-config "key=$STATE_FILE" \
     -backend-config "access_key=$AWS_ACCESS_KEY_ID" \
     -backend-config "secret_key=$AWS_SECRET_ACCESS_KEY"
