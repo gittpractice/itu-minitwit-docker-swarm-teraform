@@ -7,7 +7,7 @@ ssh_key/*
 
 # .tfstate files
 *.tfstate
-*.tfstate.*
+*.tfstate.
 
 # Dependency lock file
 .terraform.lock.hcl
